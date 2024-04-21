@@ -7,7 +7,7 @@ While deep neural networks have yielded high accuracies in classifying age and g
 
 In this study, we utilized the VGG16 architecture as our core model. VGG16 is a 16 layer deep network widely popular for its high accuracy in many computer vision tasks. It consists of 13 ReLU activated convolutional blocks for feature extraction, 4 max pooling layers in between and three dense layers for classification (Figure 1).
 
-<img width="939" alt="Screenshot of App" src="/static/vgg16.png">
+<img width="500" alt="Screenshot of App" src="/static/vgg16.png">
 
 Figure 1
 
@@ -29,6 +29,6 @@ In our proposed model, all convolutional layers as well as the first dense layer
 
 Our results how the use of transfer learning can expedite the convergence of the model using well-learned features of facial images allowing it to adapt and specialize in age and gender classification tasks with relatively few training epochs while reducing overfitting. More information can be found in our report.
 
-<img width="939" alt="Screenshot of App" src="/static/Age.png">
+<img width="350" alt="Screenshot of App" src="/static/Age.png">
 
-<img width="939" alt="Screenshot of App" src="/static/Gender.png">
+<img width="350" alt="Screenshot of App" src="/static/Gender.png">
